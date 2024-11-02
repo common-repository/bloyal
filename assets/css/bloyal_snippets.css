@@ -1,0 +1,33 @@
+input {
+  margin-bottom:4px;
+}
+.redfont {
+  color: red;
+}
+.displaynone {
+  display: none;
+}
+.config-table {
+  line-height:40px;
+}
+.sync-table-data {
+	padding:0 5px 0 5px;
+}
+table#snippets_details_table {
+	font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+table#snippets_details_table th{
+	border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+table#snippets_details_table td{
+	border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+table#snippets_details_table tr:nth-child(even) {
+	background-color: #dddddd;
+}

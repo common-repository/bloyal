@@ -1,0 +1,81 @@
+input {
+	margin-bottom:4px;
+}
+.redfont {
+	color: red;
+}
+.displaynone {
+	display: none;
+}
+.config-table {
+	line-height:40px;
+}
+.sync-table-data {
+	padding:0 5px 0 5px;
+}
+.woocommerce-customer-details--phone{
+	display: none;
+}
+
+/* -----Provisioning CSS ----- */
+
+.provisioning_popup {
+  display: inline-block;
+  position: absolute;
+  top: 10%;
+  z-index: 999;
+  left: 50%;
+  height: 290px;
+  padding: 1em;
+  transform: translateX(-50%);
+  background: #fff;
+  border: 1px solid #888;
+  box-shadow: 1px 1px .5em 0 rgba(0, 0, 0, .5);
+  transition: opacity .3s ease-in-out;
+}
+
+.provisioning_popup .hidden {
+  display: none;
+}
+
+#id_start_provisioning, #id_cancel_provisioning{
+  height: 35px;
+}
+
+.provisioning_btn {
+  text-align: center;
+}
+
+ .custombtn {
+	border: none;
+	background-color: #2d6ca2;
+	color: #fff;
+	text-decoration: none;
+	border-style: outset;
+	font: 400 13.3333px Arial;
+	padding: 9px;
+	border-width: 1px;
+	cursor: pointer;
+	border-color: rgb(118, 118, 118);
+	border-image: initial;
+}
+ .custombtn:hover{
+	background: #2d6ca2;
+	border-style: inset;
+
+}
+
+.parentDisable {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: #fbf3f394;
+    opacity: 0.8;
+    z-index: 998;
+    height: 100%;
+    width: 100%;
+}
+/* -----Provisioning CSS ----- */
+input#pickuplocations_CHETU1 {
+  float: left;
+}
